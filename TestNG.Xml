@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="890 Enterprise application Test Automation Test Suite">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+    </listeners>
+    <test name="890 Enterprise App Test Cases">
+        <classes>
+             <class>
+              <Method>
+                <include name="Logintest"/>
+                <include name="setUp"/>
+              </Method>
+            </class>
+        </classes>
+    </test>
+</suite>
